@@ -14,7 +14,7 @@ const scategorieRouter =require("./routes/scategorie.route");
 const articleRouter =require("./routes/article.route");
 
 // Connexion à la base données
-mongoose.connect(process.env.DATABASE,{
+mongoose.connect(process.env.DATABASECLOUD,{
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
